@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Tilt+Prism&display=swap');
 
 	*{
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-		font-family: 'Nosifer', sans-serif;
+		font-family: 'Akshar', sans-serif;
 	}
 	body{
-		background-color: #720000;
+		background-color: black;
 		height: 100% ;
 		width: 100%;
 		background-repeat: no-repeat;
@@ -158,16 +157,16 @@
 		height: 40px;
 		line-height: 40px;
 		text-align: center;
-		background: #720000;
+		background: black;
 		color: #f1f1f1;
 		border-radius: 50%;
-		box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+		box-shadow: 2px 2px 5px #fff;
 		transition: all .4s ease-in-out;
 	}
 
 	.user :hover{
 		transform: scale(1.2);
-		color:black
+		color:#fff
 	}
 
 	.icon{
@@ -186,16 +185,16 @@
 		line-height: 40px;
 		text-align: center;
 		margin: 3px;
-		background:#720000 ;
+		background:black ;
 		color: #f1f1f1;
 		border-radius: 50%;
-		box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+		box-shadow: 2px 2px 5px #fff;
 		transition: all .4s ease-in-out;
 	}
 
 	.icon a:hover{
 		transform: scale(1.2);
-		color: black;
+		color: #fff
 	}
 
 	/*main*/
@@ -210,6 +209,7 @@
 		left: 38%;
 		top: 60px;
 		height: 450px;
+		z-index: 1;
 	}
 	.busqueda{
 		position:absolute;
@@ -299,7 +299,7 @@
 		height: 60px;
 		line-height: 60px;
 		text-align: center;
-		background: #720000;
+		background: black;
 		color: #f1f1f1;
 		border-radius: 50%;
 		box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
